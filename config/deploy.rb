@@ -1,8 +1,8 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.17.1"
 
-set :application, "production"
-set :repo_url, "git@example.com:arunp-cse/cap_deploy.git"
+set :application, "cap_deploy"
+set :repo_url, "git@github.com:arunp-cse/cap_deploy.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
