@@ -21,6 +21,7 @@ set :rbenv_ruby, '3.1.3'
 # Default value for :pty is false
 # set :pty, true
 
+set :passenger_restart_with_touch, true 
 # Default value for :linked_files is []
 # append :linked_files, "config/database.yml", 'config/master.key'
 append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', '.bundle', 'public/system', 'public/uploads'
