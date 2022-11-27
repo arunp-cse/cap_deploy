@@ -21,7 +21,7 @@ set :rbenv_ruby, '3.1.3'
 # Default value for :pty is false
 # set :pty, true
 
-set :passenger_restart_with_touch, true 
+# set :passenger_restart_with_touch, true 
 # Default value for :linked_files is []
 # append :linked_files, "config/database.yml", 'config/master.key'
 append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', '.bundle', 'public/system', 'public/uploads'
@@ -35,7 +35,7 @@ append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bund
 # set :local_user, -> { `git config user.name`.chomp }
 
 # Default value for keep_releases is 5
-set :keep_releases, 5
+set :keep_releases, 2
 
 # Uncomment the following to require manually verifying the host key before first deploy.
 # set :ssh_options, verify_host_key: :secure
