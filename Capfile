@@ -4,6 +4,8 @@ require "capistrano/setup"
 # Include default deployment tasks
 require "capistrano/deploy"
 
+require 'capistrano/passenger'
+
 # Load the SCM plugin appropriate to your project:
 #
 # require "capistrano/scm/hg"
@@ -16,7 +18,6 @@ require "capistrano/scm/git"
 install_plugin Capistrano::SCM::Git
 
 require 'capistrano/rails'
-require 'capistrano/passenger'
 require 'capistrano/rbenv'
 
 # Include tasks from other gems included in your Gemfile
