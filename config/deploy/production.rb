@@ -8,7 +8,7 @@
 # server "db.example.com", user: "deploy", roles: %w{db}
 
 
-server '44.210.118.93', user: 'ubuntu', roles: %w{app db web}
+server '54.92.177.0', user: 'ubuntu', roles: %w{app db web}
 
 set :branch, 'master'
 set :deploy_to, '/home/ubuntu/production'
